@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sams Gym</title>
+    <link rel="stylesheet" href="CSS/Smas.css">
+    <link rel="stylesheet" href="CSS/secon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="JS/SAMSGYM.JS"></script>
+      <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Sams GYM
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="IMG/saams.jpg" alt="Logo de Sams Gym" width="60" class="rounded-circle me-2">
+            </a>
+        </div>                
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a class="dropdown-item" href="index.html">Quiénes somos</a></li>
+                <li class="dropdown">
+                    <a href="#">Servicios ▼</a>
+                    <ul class="submenu">
+                        <li><a href="Area.HTML">Area de entrenamiento</Area></a></li>
+                        <li><a href="Ropa.HTML">Ropa Deportiva</a></li>
+                        <li><a href="Cafeteria.HTML">Cafetería</a></li>
+                    </ul>
+                </li>
+                <li><a href="Costos.HTML">Costos</a></li>
+                <li><a href="Ubicaión.HTML">Ubicación</a></li>
+                        <li><a href="Opinion.HTML">Opiniones </a></li>
+            </ul>  
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Transforma tu Cuerpo y Mente</h1>
+        <p>Únete a la comunidad de Sams Gym y alcanza tu mejor versión</p>
+        <h2>Servicio Cafetería</h2>
+        <p>Disfruta de una variedad de snacks y comidas saludables en nuestra cafetería.</p>
+        
+    </section>
+   
+    <section class="cards">
+        
+        <div class="card">
+            
+            <td>Licuados con Proteína</td>
+            <td>
+                Bebidas saludables con proteínas esenciales para la recuperación muscular.
+                <br><strong>Tipos de licuados disponibles:</strong>
+                <ul>
+                    <li>Malteada de Oreo</li>
+                    <li>Malteada Hulk</li>
+                    <li>Piña Colada</li>
+                    <li>Tradicional</li>
+                    <li>Mocachino</li>
+                </ul>
+            </td>
+        </div>
+    
+        <div class="card community">
+            <td>Comida</td>
+                    <td>
+                        Opciones ricas en proteínas para una buena alimentación:
+                        <ul>
+                            <li>Sándwich de Pollo</li>
+                            <li>Pechuga de Pollo</li>
+                            <li>Filete de Pescado</li>
+                            <li>Ensalada de Atún</li>
+                            <li>Baguette de Pollo</li>
+                        </ul>
+                    </td>
+        </div>
+    </section>
+</section>
+<h2 style="text-align: center; margin-top: 30px;">COMIDAS Y BEBIDAS</h2>
+    <section class="cards">
+   
+        <div class="product-container">
+            <div class="product-card">
+                <img src="IMG/im6.jpg" alt="Playera Deportiva">
+                <h3>ENSALADA DE ATÚN</h3>
+                <p>$85 MXN</p>
+            
+            </div>
+            <div class="product-card">
+                <img src="IMG/im7.jpg" alt="Short Deportivo">
+                <h3>BAGUETTE DE POLLO</h3>
+                <p>$150 MXN</p>
+            
+            </div>
+            <div class="product-card">
+                <img src="IMG/im8.jpg" alt="Sudadera Deportiva">
+                <h3>TRADICIONAL</h3>
+                <p>$70 MXN</p>
+             
+            </div>
+            <div class="product-card">
+                <img src="IMG/im9.jpg" alt="Leggings Deportivos">
+                <h3>HULK</h3>
+                <p>$95 MXN</p>
+              
+            </div>
+            <div class="product-card">
+                <img src="IMG/im10.jpg" alt="Leggings Deportivos">
+                <h3>PIÑA COLADA</h3>
+                <p>$90 MXN</p>
+              
+            </div>
+            <div class="product-card">
+                <img src="IMG/im11.jpg" alt="Leggings Deportivos">
+                <h3>PECHUGA DE POLLO</h3>
+                <p>$75 MXN</p>
+              
+            </div>
+            <div class="product-card">
+                <img src="IMG/IM12.jpg" alt="Leggings Deportivos">
+                <h3>FILETE DE PESCADO</h3>
+                <p>$120 MXN</p>
+              
+            </div>
+            <div class="product-card">
+                <img src="IMG/IM13.jpg" alt="Leggings Deportivos">
+                <h3>SANDWICH</h3>
+                <p>$85 MXN</p>
+              
+            </div>
+            <div class="product-card">
+                <img src="IMG/IM14.jpg" alt="Leggings Deportivos">
+                <h3>MOCACCINO</h3>
+                <p>$80</p>
+              
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>Síguenos en redes sociales:</p>
+        <a href="https://www.instagram.com/samsgym_oficial?igsh=MWs0N3pwMzNyd2M5aA==" target="_blank">
+            <i class="fab fa-instagram fa-2x" style="color: #E1306C; margin: 0 10px;"></i>
+        </a>
+        <a href="https://www.facebook.com/share/15sFVU1E19/" target="_blank">
+            <i class="fab fa-facebook fa-2x" style="color: #3b5998; margin: 0 10px;"></i>
+        </a>
+        <a href="https://web.whatsapp.com/send?phone=529511735847&text=Hola%20tengo%20una%20duda"></a>
+        <a href="https://web.whatsapp.com/send?phone=529511735847&text=Hola%20tengo%20una%20duda">
+            <i class="fab fa-whatsapp fa-2x" style="color: #3b984c; margin: 0 10px;"></i>
+        </a>
+    </footer>
+       <script>
+  const toggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('show');
+  });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    

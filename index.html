@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sams Gym</title>
+    <link rel="stylesheet" href="CSS/Smas.css">
+    <link rel="stylesheet" href="CSS/secon.css">
+    <link rel="stylesheet" href="CSS/c.css">
+      <link rel="stylesheet" href="CSS/ca.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="JS/SAMSGYM.JS"></script>
+     <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Sams GYM
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="IMG/saams.jpg" alt="Logo de Sams Gym" width="60" class="rounded-circle me-2">
+            </a>
+        </div>                
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a class="dropdown-item" href="index.html">Quiénes somos</a></li>
+                <li class="dropdown">
+                    <a href="#">Servicios ▼</a>
+                    <ul class="submenu">
+                        <li><a href="Area.HTML">Area de entrenamiento</Area></a></li>
+                        <li><a href="Ropa.HTML">Ropa Deportiva</a></li>
+                        <li><a href="Cafeteria.HTML">Cafetería</a></li>
+                    </ul>
+                </li>
+                <li><a href="Costos.HTML">Costos</a></li>
+                <li><a href="Ubicaión.HTML">Ubicación</a></li>
+                        <li><a href="Opinion.HTML">Opiniones </a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Transforma tu Cuerpo y Mente</h1>
+        <p>Únete a la comunidad de <strong>Sams Gym</strong> y alcanza tu mejor versión</p>
+    
+    </section>
+    <section class="cards">
+        <div class="card">
+            <h3>Quiénes Somos</h3>
+            <p>Sams Gym es más que un gimnasio, es una comunidad comprometida con el bienestar físico y mental de nuestros miembros. Fundado en Xoxocotlán, Oaxaca, nuestro objetivo es brindar un espacio motivador donde las personas de todas las edades y niveles de condición física puedan alcanzar sus metas.</p>
+            <p>Ofrecemos instalaciones modernas, equipos de última generación y un ambiente inclusivo donde todos son bienvenidos. Creemos en el poder del ejercicio no solo para transformar el cuerpo, sino también para fortalecer la mente y mejorar la calidad de vida.</p>
+            <p>En Sams Gym, promovemos la constancia, la disciplina y el esfuerzo como pilares fundamentales para alcanzar cualquier objetivo. Nos enorgullece ser un espacio donde nuestros miembros pueden superar sus límites y descubrir de lo que son capaces.</p>
+        </div>
+        
+        <div class="card finance">
+            <h3>Nuestro Propósito</h3>
+            <p>En Sams Gym, trabajamos para que cada uno de nuestros miembros logre su mejor versión. Contamos con un equipo de entrenadores altamente capacitados que ofrecen asesoramiento personalizado y rutinas adaptadas a las necesidades individuales, ya sea que busques perder peso, ganar músculo, mejorar tu resistencia o simplemente llevar un estilo de vida más saludable.</p>
+            <p>Además, promovemos un enfoque integral del bienestar, combinando ejercicio, nutrición y hábitos saludables. Organizamos clases grupales, retos fitness y eventos comunitarios para fomentar la motivación y el compañerismo entre nuestros miembros.</p>
+            <p>Creemos que el bienestar va más allá del entrenamiento físico, por lo que también ofrecemos asesoramiento nutricional y programas de seguimiento para garantizar resultados efectivos y sostenibles en el tiempo.</p>
+        </div>
+        <div class="card community">
+            <h3>Únete a Nuestra Comunidad</h3>
+            <p>En Sams Gym, no solo te ofrecemos un espacio para entrenar, sino que te invitamos a formar parte de una comunidad donde la motivación y el apoyo mutuo hacen la diferencia. Aquí encontrarás un ambiente positivo, entrenadores comprometidos y compañeros de entrenamiento que comparten tus mismos objetivos.</p>
+            <p>Además, organizamos eventos especiales, desafíos fitness y actividades recreativas para que el camino hacia una vida más saludable sea motivador y divertido.</p>
+            <p>¡No esperes más para transformar tu vida! Ven y descubre por qué Sams Gym es el lugar ideal para alcanzar tus metas.</p>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>Síguenos en redes sociales:</p>
+        <a href="https://www.instagram.com/samsgym_oficial?igsh=MWs0N3pwMzNyd2M5aA==" target="_blank">
+            <i class="fab fa-instagram fa-2x" style="color: #E1306C; margin: 0 10px;"></i>
+        </a>
+        <a href="https://www.facebook.com/share/15sFVU1E19/" target="_blank">
+            <i class="fab fa-facebook fa-2x" style="color: #3b5998; margin: 0 10px;"></i>
+        </a>
+        <a href="https://web.whatsapp.com/send?phone=529511735847&text=Hola%20tengo%20una%20duda">
+            <i class="fab fa-whatsapp fa-2x" style="color: #3b984c; margin: 0 10px;"></i>
+        </a>
+    </footer>
+    <script>
+  const toggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('show');
+  });
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
